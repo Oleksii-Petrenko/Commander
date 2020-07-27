@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AAA\\api\\Commander\\Commander.csproj": {}
+    "D:\\AAA\\api\\commander\\Commander.csproj": {}
   },
   "projects": {
-    "D:\\AAA\\api\\Commander\\Commander.csproj": {
+    "D:\\AAA\\api\\commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AAA\\api\\Commander\\Commander.csproj",
+        "projectUniqueName": "D:\\AAA\\api\\commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "D:\\AAA\\api\\Commander\\Commander.csproj",
+        "projectPath": "D:\\AAA\\api\\commander\\Commander.csproj",
         "packagesPath": "C:\\Users\\Dell_PC\\.nuget\\packages\\",
-        "outputPath": "D:\\AAA\\api\\Commander\\obj\\",
+        "outputPath": "D:\\AAA\\api\\commander\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell_PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mN0E8Uz7IfNTTdE1hJp79GoK9MOqKD6sTLRKIqiBsERWnS8YbPdf+5SxicKRXAlkhogRR2ydudXoH0DF7Tufbw==",
+  "dgSpecHash": "oCpOeVodCIx5DgmVVtjboZQceilHmO3Rwrxmrqz+QxiAhw7PuGsWKj456KoAyc1Hy2vjfrin0mYgVmLSM0XmHg==",
   "success": true,
-  "projectFilePath": "D:\\AAA\\api\\Commander\\Commander.csproj",
+  "projectFilePath": "D:\\AAA\\api\\commander\\Commander.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
