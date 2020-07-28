@@ -3,9 +3,9 @@ API Commander App via VScode
 
 https://www.youtube.com/watch?v=fmvcAzHpsk8
 
-time: 45:37 
+time: 1:18:00 
 
-Doesnt work :(
+No connection to local DB 
 
 CommanderAPI
 12345

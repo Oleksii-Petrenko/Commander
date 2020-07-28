@@ -12,15 +12,17 @@ namespace Commander.Controllers
     [ApiController]
     public class CommandsController: ControllerBase
     {
+        #region DEPENDENCY INJECTION
         private readonly ICommanderRepo _repository;
 
+        // private readonly MockCommanderRepo _repository = new MockCommanderRepo();
         public CommandsController(ICommanderRepo repository)
         {
             _repository=repository;
 
         }
-
-        // private readonly MockCommanderRepo _repository = new MockCommanderRepo(); 
+        #endregion
+         
 
         // GET api/commands
         [HttpGet]
