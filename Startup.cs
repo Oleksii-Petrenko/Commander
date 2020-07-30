@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Commander.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+
 
 
 namespace Commander
@@ -33,7 +35,13 @@ namespace Commander
 
             services.AddControllers();
 
+            // Add automapping 
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
             // DEPENDENCY INJECTION
+            
+         // services.AddScoped<ICommanderRepo, CommanderContex>();
             services.AddScoped<ICommanderRepo, MockCommanderRepo>();
         }
 
