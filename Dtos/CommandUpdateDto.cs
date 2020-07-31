@@ -1,19 +1,21 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Commander.Models
-
+namespace Commander.Dtos
 {
-    public class Command
+        public class CommandUpdateDto
     {
-        [Key]
-        public int Id { get; set; }
-        [Required]
+        [Required] 
         [MaxLength(250)]
         public string HowTo {get;set;}
-        [Required]
+
+
+        [Required]      
         public string Line { get; set; }
-        [Required]
+
+        [Required]     
         public string Platform { get; set; }
 
-    }
+    }  
+
+
 }

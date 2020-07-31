@@ -1,4 +1,4 @@
-namespace Commander.ReadDto
+namespace Commander.Dtos
 
 {
     public class CommandReadDto
@@ -7,7 +7,7 @@ namespace Commander.ReadDto
 
         public string HowTo {get;set;}
 
-     //   public string Line { get; set; }
+        public string Line { get; set; }
 
     }
 }

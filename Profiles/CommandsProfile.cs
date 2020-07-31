@@ -1,6 +1,6 @@
 using AutoMapper;
 using Commander.Models;
-using Commander.ReadDto;
+using Commander.Dtos;
 
 namespace Commander.Profiles
 
@@ -9,8 +9,10 @@ namespace Commander.Profiles
         {
             public CommanderProfile()
             {
-             
+                // Sourse -> Target
                 CreateMap<Command,CommandReadDto>();
+                CreateMap<CommandCreateDto,Command>();
+                CreateMap<CommandUpdateDto,Command>();
 
             }
             
